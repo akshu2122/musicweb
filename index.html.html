@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            MUSIC IS LOVE
+           
+        </title>
+        
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+   
+    </head>
+    <style>
+         /*https://www.free-css.com/free-css-templates/page255/melodi*/
+        .img1{
+            z-index:-1;
+           width: 110%;
+           height:600px; 
+           position:absolute;
+        }
+        
+        .nav1{
+            height: 80px;
+            width: 100%;
+            backdrop-filter: blur(10px);
+            border: white;
+            float: left;
+            margin-left: 100px;
+        }
+        div nav a{
+            float: left;
+            margin-left: 80px;
+            margin-top: 50px;
+            text-decoration: none;
+        }
+        h2{
+            color: white;
+            font-size: 50px;
+        }
+        h3{
+            color: white;
+        }
+        h2:hover{
+            opacity: 0.4;
+        
+        }
+        h1:hover{
+            opacity: 0.6;
+    
+        }
+        h4:hover{
+            opacity: 0.6;
+            color:teal;
+        }
+        h3:hover{
+            color: red;
+            opacity: 0.4;
+        }
+        .but{
+            background: red;
+            border: red;
+            height: 30px;
+            width: 100px;
+        }
+        .but:hover{
+            opacity: 0.4;
+        }
+        .row::after{
+            clear: both;
+            padding: 40px;
+            
+        }
+        .column{
+            width: 80%;
+            float: left;
+    
+            
+        }
+       
+        .img2{
+            width: 25%;
+            height:200px;
+        padding: 15px;
+            border-radius: 75% 75% 75% 75%;
+        
+        }
+        .img2:hover{
+            opacity: 0.7;
+        }
+        .d2{
+            width: 110%;
+            height: 500px;
+            margin-top: 70px;
+            background-image: url("https://f4.bcbits.com/img/a2595979991_10.jpg");
+        }
+        .row1::after{
+            position: absolute;
+            clear: both;
+            margin-left: 100px;
+        }
+        .column1{
+            width: 50%;
+            float: left;
+        }
+        .img3{
+            float: left;
+            vertical-align: middle;
+            width: 100%;
+            height: 500px;
+        }
+    
+        .img3:hover
+        {
+            opacity: 0.3;
+        
+            background-color:black;
+            overflow: hidden;
+        }
+        #slides{
+  position: relative;
+  height: 150px;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+
+.slide{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 1;
+
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+.showing{
+  opacity: 1;
+  z-index: 2;
+}
+
+
+
+/*
+non-essential styles:
+just for appearance; change whatever you want
+*/
+
+.slide{
+  font-size: 40px;
+  padding: 40px;
+  box-sizing: border-box;
+  /*background: #333;*/
+  color: #fff;
+}
+
+/*.slide:nth-of-type(1){
+  background: red;
+}
+.slide:nth-of-type(2){
+  background: orange;
+}
+.slide:nth-of-type(3){
+  background: green;
+}
+.slide:nth-of-type(4){
+  background: blue;
+}
+.slide:nth-of-type(5){
+  background: purple;
+}*/
+    </style>
+   
+    <body style="background-color:black;">
+      
+      <p class="para" style="color: white; font-size: 100px;"></p>
+        <div class="d1">
+            <img class="img1" src="https://png.pngtree.com/back_origin_pic/03/92/18/b781a32f3ee4b2502d02d4f97917355f.jpg">
+            <div class="Transparent">
+               <nav class="nav1">
+                <a style="font-size: 15px; color:white;" href="#"> Home</a>
+                <a style="font-size: 15px; color:white;" href="#"> Pages</a>
+                <a style="font-size: 15px; color:white;" href="#"> Dropdown</a>
+                <a style="font-size: 15px; color:white;" href="#"> Link Text</a>
+                <a style="font-size: 15px; color:white;" href="#"> Link Text</a>
+            </nav>
+            <marquee direction="right" scrollamount="10">
+            <h2>Melodi For You!</h2>
+            </marquee>
+            <marquee direction="left" scrollamount="10">
+            <h3 >Find More Innovative & Creative Music Albums.</h3>
+            </marquee>
+            <br>
+            <br>
+            <br>
+            <button class="but" style="margin-left: 300px;">Download</button>
+            </div>
+            <center>
+            <div style=" width: 500px; height: 200px;">
+                <h1 style="color: white;">Musical Night</h1>
+                <h4 style="color: white;">Enjoy the Live Event</h4>
+            </div>
+        </center>
+        </div>
+    
+
+        <audio id="myaudios1">
+            <source   src="Kabira lofi version .mp3" type="audio/mpeg">
+        </audio>
+        <audio id="myaudios2">
+            <source   src="Baarish-(Mr-Jatt.com).mp3" type="audio/mpeg">
+        </audio>
+        <audio id="myaudios3">
+            <source   src="Chitta - Shiddat.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="myaudios4">
+            <source   src="Hamari Adhuri Kahani (Title Song) Arijit Singh 320Kbps.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="myaudios5">
+            <source   src="Never Give Up (Sia) - 320Kbps(MirchiGana.In).mp3" type="audio/mpeg">
+        </audio>
+       
+       <div style="background-color: black; height: 1200px; width: 100%;">
+        <center>
+        <h1 style="font-size: 70px; color: white; margin-top: 150px; margin-bottom: 150px;">Gallery</h1>
+        </center>
+     <div class="row1">
+            
+            <div class="column1">
+            <img class="img3" src="https://images.ctfassets.net/ds6dz7ilx8up/4RS4VRwjxS0lGhn8iyGKHl/b1ad7ebc10b74ace0322943e15fb5236/lnc-hero-desktop.jpg">
+            <img class="img3" src="https://express-images.franklymedia.com/6616/sites/395/2018/03/13063550/eagles-group-shot-2.jpg">
+            </div>
+            
+            <div class="column1">
+            <img class="img3" src="https://edmli.com/wp-content/uploads/2019/02/AAIA_wDGAAAAAQAAAAAAAAuTAAAAJDcwODgwN2JmLTE0NDEtNDAxNC05MzdjLWFlYzJiNzYxOGEyZQ-min.jpg">
+            <img class="img3" src="https://365.tomorrowland.com/cache/0f17a00f76f92b5699ff4f486e600b6a.jpg">
+            </div>
+            
+        </div>
+    
+    </div>
+
+    <div style="background-color: orangered;">
+        <center>
+        <h1 style="font-size: 60px; margin-top: 70px;">Events</h1>
+    </center>
+        <img style="width: 70%; height:500px; margin-left:200px" src="https://static.vecteezy.com/system/resources/previews/000/197/352/original/live-music-event-poster-design-template-vector.jpg">
+        <h1 style="font-size: 100px;" >Our Tours</h1>
+        <pre style=" font-size:50px; background-color:orangered; border: none; color: black;">26    NewYork, US-<button style="background-color: black; color: white; border: none; width: 400px; height: 70px;">Music Area</button><br>June<button style="margin-left:50px; background-color: black; color:white; width: 305px; height: 70px; border: none;">Buy Ticket</button></pre>
+        <h1>_____________________________________________________________________________</h1>
+        <pre style="font-size:50px; background-color:orangered; border: none; color: black;">30    NewYork, US-<button style="background-color: black; color: white; border: none; width: 400px; height: 70px;">Music Area</button><br>Oct<button style="margin-left:50px; background-color: black; color:white; width: 305px; height: 70px; border: none;">Buy Ticket</button></pre>
+        <h1>_____________________________________________________________________________</h1>
+        <pre style=" font-size:50px; background-color:orangered; border: none; color: black;">21    NewYork, US-<button style="background-color: black; color: white; border: none; width: 400px; height: 70px;">Music Area</button><br>Nov<button style="margin-left:50px; background-color: black; color:white; width: 305px; height: 70px; border: none;">Buy Ticket</button></pre>
+        <h1>_____________________________________________________________________________</h1>
+    </div>
+
+
+    
+<center>
+    <div style="margin-top: 200px; background-color: white; height: 900px; ">
+        <br>
+        
+    <h1 style="color:black; margin-left: 00px; font-size: 80px; margin-top: 100px;">Albums</h1>
+    <br>
+    <br>
+    
+    <div class="row">
+        <div class="column">
+            <a href="arijitsingh.html" ><img style="margin-left: 190px;" class="img2" src="https://th.bing.com/th/id/R.7d86d9ca87afd0c34c7824a6e16c1a77?rik=5pnq90mzN2JOfg&riu=http%3a%2f%2fwww.top10songsnews.com%2fwp-content%2fuploads%2f2017%2f05%2fARIJIT-SINGH-Top-10-Best-Bollywood-Male-Female-Singers-2017.jpg&ehk=Ts4uz%2bgsjNcI2VXs9pzDKHmEO2rn7LRQz9JhOa%2bnQb4%3d&risl=&pid=ImgRaw&r=0">
+            </a>
+            <img class="img2" src="https://th.bing.com/th/id/R.aa6bc44280ce40966edc36ab3488ce08?rik=8ktlwfbjJH7T1A&riu=http%3a%2f%2fwww.baltana.com%2ffiles%2fwallpapers-2%2fNeeti-Mohan-Beautiful-Indian-Singer-Wallpaper-06562.jpg&ehk=VoW%2fEqyB0vVveTG8OkmBSpWIk9QTMozxccs%2b9otGCP0%3d&risl=&pid=ImgRaw&r=0">
+            <img  class="img2" src="https://resize.indiatvnews.com/en/resize/newbucket/715_-/2018/11/mv5bmzeyotnlyzcty2y1nc00zmrlltllmjqtmmrlogqyyjg3ztvjxkeyxkfqcgdeqxvyndqxnjcxnq-1543069911.jpg">
+        </div>
+        <div class="column">
+            <img class="img2" style="margin-left: 190px;" src="https://www.timeoutdubai.com/public/images/2019/10/08/bollywood3.jpg">
+            <img class="img2" src="https://www.iwmbuzz.com/wp-content/uploads/2020/01/dhvani-bhanushalis-fashion-is-too-trendy-and-we-know-why.jpg">
+            <img class="img2" src="https://afashionz.com/wp-content/uploads/2018/12/Shreya-Ghoshal-3-1900x.jpg">
+
+        </div>
+        <div class="column">
+            <img class="img2" style="margin-left: 190px;" src="https://www.bookmysinger.com/wp-content/uploads/2018/03/Sonu-Nigam.jpg">
+            <img class="img2" src="https://www.desiblitz.com/wp-content/uploads/2018/08/12-Famous-Bollywood-Female-Playback-Singers-Neha-Kakkar.jpg">
+            <img class="img2" src="https://qph.fs.quoracdn.net/main-qimg-1c72dbd3e71bca950868eaca1ef856a5">
+
+        
+        </div>
+    </div>
+</div>
+</center>
+
+<div style="height: 600px;">
+    <center>
+        <br>
+    <p style="font-size: 50px; color: white;">Play Your Song <span style="font-size: 50px;" class="glyphicon glyphicon-heart"></span></p>
+    <ul id="slides">
+        <li class="slide showing"><img id="img4"  style="width: 70%; height: 400px;" onclick="playaudio1()" src="https://th.bing.com/th/id/R.49edd46b61c7376ccfe09e50ed1a0fd5?rik=SmO3%2bX1WQJPqTA&riu=http%3a%2f%2fimg.xcitefun.net%2fusers%2f2013%2f03%2f320979%2cxcitefun-kabira-song.jpg&ehk=N7XyjuTazVcmhvbEX%2boMi6tAZqiZkRP1MMGhA7NsngA%3d&risl=&pid=ImgRaw&r=0">
+        </li>
+        <li class="slide"><img id="img4" style="width: 70%; height: 400px;" onclick="playaudio2()" src="https://i.pinimg.com/originals/12/7c/a3/127ca36b9e0770848c874bf893c7cc58.jpg">
+        </li>
+        <li class="slide"><img id="img4"  style="width: 70%; height: 400px;" onclick="playaudio3()" src="https://i.ytimg.com/vi/NiNA2NZSqFU/maxresdefault.jpg">
+        </li>
+        <li class="slide"><img id="img4"  style="width: 70%; height: 400px;" onclick="playaudio4()" src="https://i.pinimg.com/originals/09/85/af/0985af485dfba5598a3bd28c7c646d2f.jpg">
+        </li>
+        <li class="slide"><img id="img4"  style="width: 70%; height: 400px;" onclick="playaudio5()" src="https://images.genius.com/848121e8d2bd59849f0cbc2ec1f1be1b.1000x1000x1.jpg">
+        </li>
+      </ul>
+    
+</center>
+</div>
+
+
+
+
+    <div style="height: 600px;">
+        <center>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        <h1 style="font-size: 90px; color: orangered; ">News & Updates</h1>
+         <h2 style="color: white; font-size: 40px;">  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa
+            semper aliquam quis mattis quam.</h2>
+        
+
+        <div class="row1" style="width: 80%; margin-left: 60px;">
+            <div class="column1"  style="border:1px dotted white; width: 45%;">
+             <h3>Musical Night<br><br> <span style="font-size: 50px;" class="glyphicon glyphicon-music"></span></h3>  
+             
+            <p style="color: white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus.</p>
+            <h3>Dancing Night  <br><br>
+            <span style="font-size: 50px;" class="glyphicon glyphicon-heart"></span></h3>
+                <p style="color: white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus.</p>
+        </div>
+            <div class="column1" style="border:1px dotted white; width: 45%;">
+                <h3>Food Night<br><br><span style="font-size: 50px;" class="glyphicon glyphicon-cutlery"></span></h3>
+                <p style="color: white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus.</p>
+                <h3>Club Night <br><br><span style="font-size: 50px;" class="glyphicon glyphicon-star"></span></h3>
+                <p style="color: white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus.</p>
+       
+            </div>
+        </div>
+</center>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div style="height: 1000px; width: 100%; background-color: black;">
+        <center>
+            <br>
+        <h1 style=" margin-top:200px; margin-bottom: none; font-size: 80px; color: white;">Contact us</h1>
+        <p style="margin-top: none;">Make your contact us page easy to find by including it on one of your main menus. As you can see, Yardi has their contact us link on their main drop-down menu. Keep It Simple</p>
+        <br>
+        <form style="color: white; font-size: 30px;">
+
+            <label style="float:left; margin-left:100px; ">Your Name</label>
+            <input type="text" style="color:white; float:right; margin-right: 50px; width: 50%; border: 1px solid white; background-color: black;"><br><br>
+            <label  style="float:left; margin-left:100px;" >Email Address</label>
+            <input type="Email" style="color:white; float: right; margin-right: 50px; width: 50%; border: 1px solid white; background-color: black;"><br><br>
+            <label style="float:left; margin-left: 100px;">Your Message</label>
+            <input type="text" style="color:white; float: right; height: 100px; width:50%; margin-right: 50px; border: 1px solid white; background-color: black; ">
+           
+        </form>
+        </center>
+        
+        <button style="width:75px; height:30px; border:none; background-color: red;  color:black; float:right; margin-top:120px; margin-left: 440px;">Send</button>
+        <h5 style="float: left; color: white; font-size: 30px;">Our Address
+          <br>  Company name
+           <br> 1234 Street Dr.
+           <br> Vancouver, BC
+            <br>Canada
+            <br>V6G 1G9
+            <br>Tel: (604) 555-4321
+            <br>© 2018 Company Name. Template by
+            <br> WebThemez.com</h5>
+    </div>
+
+
+
+    </body>
+
+    <script>
+        
+        function imageslideshow()
+        {
+            var x=document.getElementById("img4");
+            x.appendChild("")
+            x.src="https://qph.fs.quoracdn.net/main-qimg-c8d2cb506ab555be54834a8e412af67c-c";
+            setTimeout("iss()", 3000);
+        }
+        function playaudio1()
+        {
+            var x=document.getElementById("myaudios1");
+            x.play();
+        }
+        function playaudio2()
+        {
+            var x=document.getElementById("myaudios2");
+            x.play();
+        }
+        function playaudio3()
+        {
+            var x=document.getElementById("myaudios3");
+            x.play();
+        }
+        function playaudio4()
+        {
+            var x=document.getElementById("myaudios4");
+            x.play();
+        }
+        function playaudio5()
+        {
+            var x=document.getElementById("myaudios5");
+            x.play();
+        }
+        function iss()
+        {
+             var x=document.getElementById("img4");
+             x.src="https://i.pinimg.com/originals/16/bc/00/16bc001a805aa69f0146e69634e1ee93.jpg";
+             setTimeout("iss1()",3000);
+        }
+        function iss1()
+        {
+             var x=document.getElementById("img4");
+             x.src="https://i.ytimg.com/vi/PqdTi075co8/maxresdefault.jpg";
+             setTimeout("iss3()",3000);
+        }
+        function iss3()
+        {
+             var x=document.getElementById("img4");
+             x.src="https://th.bing.com/th/id/R.bbf84f9bc41c1209112cf52fad0147b7?rik=gNENf2z9VdIDLA&riu=http%3a%2f%2fwww.lyricsmint.com%2fwp-content%2fuploads%2f2018%2f06%2fprada-jass-manak.jpg&ehk=0sLmnp6NjNjHgrw3h3CnN7hX67IV1n5iRkNcfqFwRN4%3d&risl=&pid=ImgRaw&r=0";
+             setTimeout("iss4()",3000);
+        }
+        function iss4()
+        {
+             var x=document.getElementById("img4");
+             x.src="https://i.ytimg.com/vi/BBNJdp4HLkg/0.jpg";
+             setTimeout("iss2()",3000);
+        }
+        function iss2()
+        {
+             var x=document.getElementById("img4");
+             x.src="https://i.pinimg.com/originals/8c/3d/31/8c3d3106ac46ba3793b61635107981ae.jpg";
+             setTimeout("imageslideshow()",3000);
+        }
+        var slides = document.querySelectorAll('#slides .slide');
+var currentSlide = 0;
+var slideInterval = setInterval(nextSlide,2000);
+
+function nextSlide(){
+  slides[currentSlide].className = 'slide';
+  currentSlide = (currentSlide+1)%slides.length;
+  slides[currentSlide].className = 'slide showing';
+}
+
+
+
+Resources
+
+        
+     </script>
+</html>
